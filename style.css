@@ -92,7 +92,7 @@ img {
 }
 
 @media (max-width: 800px) {
-	main {
+	main, footer {
 		width: auto;
 		padding: 0 20px;
 	}
