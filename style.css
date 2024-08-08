@@ -67,17 +67,10 @@ img {
 	width: 300px;
 }
 
-.stih {
-	text-align: center;
+nav {
+	padding: 40px 0 20px;
 }
-
-.stih_2 {
-	padding: 0 0 0 200px;
-}
-
-.date {
-	text-align: right;
-}
+		
 
 .photoPost {
 	width: 100%;
@@ -91,19 +84,21 @@ img {
 	font-family: "Liberation Serif", serif;
 }
 
+.beforeVerse {
+	padding: 0 0 10px 40px;
+}
+.afterVerse {
+	padding: 10px 0 0 40px;
+}
+
 @media (max-width: 800px) {
 	main, footer {
 		width: auto;
 		padding: 0 20px;
 	}
-
-	.stih_2 {
-		padding: 0 0 0 0;
-		text-align: center;
-	}
 }
 
-@media (max-width:500px) {
+@media (max-width:550px) {
 	* {
 		font-size: 16px;
 	}
@@ -120,7 +115,18 @@ img {
 		font-size: 18.72px;
 	}
 
+	nav {
+		padding: 20px 0;
+	}
+
 	.proza p, .proza h3 {
 		text-indent: 0.5cm;
+	}
+
+	.beforeVerse {
+		padding: 0 0 5px 20px;
+	}
+	.afterVerse {
+		padding: 5px 0 0 20px;
 	}
 }
