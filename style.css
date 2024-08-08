@@ -1,0 +1,132 @@
+@font-face {
+	font-family: "Cactus Classical Serif";
+	src: url('files/CactusClassicalSerif-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Liberation Serif";
+	src: url('files/Liberation Serif-Regular.ttf');
+}
+
+* {
+	font-family: "Cactus Classical Serif", serif;
+	font-size: 20px;
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	background: white;
+	top: 0;
+	position: sticky;
+	padding: 20px 22%;
+	z-index: 2;
+}
+
+header p {
+	margin: 0;
+}
+
+header a {
+	color: black;
+	text-decoration: none;
+}
+
+a {
+	color: #0069c2;
+	text-decoration: none;
+}
+
+main {
+	margin: 0 auto;
+	width: 700px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 23.4px;
+}
+
+footer {
+	margin: 0 auto;
+	width: 700px;
+	padding: 40px;
+}
+
+img {
+	object-fit: contain;
+	width: 300px;
+}
+
+nav {
+	padding: 40px 0 20px;
+}
+		
+
+.photoPost {
+	width: 100%;
+}
+
+.proza p, .proza h3 {
+	text-indent: 1cm;
+}
+
+.dorevOrfa {
+	font-family: "Liberation Serif", serif;
+}
+
+.beforeVerse {
+	padding: 0 0 10px 40px;
+}
+.afterVerse {
+	padding: 10px 0 0 40px;
+}
+
+@media (max-width: 800px) {
+	main, footer {
+		width: auto;
+		padding: 0 20px;
+	}
+}
+
+@media (max-width:550px) {
+	* {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 18.72px;
+	}
+
+	nav {
+		padding: 20px 0;
+	}
+
+	.proza p, .proza h3 {
+		text-indent: 0.5cm;
+	}
+
+	.beforeVerse {
+		padding: 0 0 5px 20px;
+	}
+	.afterVerse {
+		padding: 5px 0 0 20px;
+	}
+}
